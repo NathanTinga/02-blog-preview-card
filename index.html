@@ -93,9 +93,9 @@
         width: 100%;
       }
 
-      .description{
-color: var(--gray-500);
-font-style: italic;
+      .description {
+        color: var(--gray-500);
+        font-style: italic;
       }
 
       .author-wrapper {
@@ -114,10 +114,18 @@ font-style: italic;
         font-weight: 800;
       }
 
-      .publication{
+      .publication {
         font-weight: 500;
       }
-      
+
+      .title a {
+        color: inherit;
+        text-decoration: none;
+      }
+
+      .title a:hover {
+        color: var(--yellow);
+      }
     </style>
   </head>
   <body>
@@ -130,7 +138,9 @@ font-style: italic;
       <h4 class="tag">Learning</h4>
 
       <h4 class="publication">Published 21 Dec 2023</h4>
-      <h1 class="title">HTML & CSS foundations</h1>
+      <h1 class="title">
+        <a href="https://www.w3schools.com/htmlcss/">HTML & CSS foundations</a>
+      </h1>
 
       <p class="description">
         These languages are the backbone of every website, defining structure,
