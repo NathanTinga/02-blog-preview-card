@@ -30,7 +30,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://github.com/NathanTinga/02-blog-preview-card)
-- Live Site URL: [Add live site URL here](nathantinga.github.io/02-blog-preview-card)
+- Live Site URL: [Add live site URL here](https://nathantinga.github.io/02-blog-preview-card)
 
 ## My process
 I started by assembling the needed dom elements, considering the use of semantic elements where it made sense. I then dis a first pass to try and nail down the approximate feel using sizing and alignment. Lastly I did a final pass where I added the link and hover responsiveness, and cleaned up the formatting (particularly for the "Learning" tag that I missed).
